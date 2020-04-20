@@ -1,10 +1,12 @@
 {
-	"name": "cwebp-bin",
+	"name": "@mole-inc/cwebp-bin",
 	"version": "5.1.0",
 	"description": "cwebp wrapper that makes it seamlessly available as a local dependency",
 	"license": "MIT",
-	"repository": "imagemin/cwebp-bin",
-	"funding": "https://github.com/imagemin/cwebp-bin?sponsor=1",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mole-inc/cwebp-bin.git"
+	},
 	"bin": {
 		"cwebp": "cli.js"
 	},
@@ -13,7 +15,9 @@
 	},
 	"scripts": {
 		"postinstall": "node lib/install.js",
-		"test": "xo && ava"
+		"test": "xo && nyc ava",
+		"coverage": "nyc report --reporter=lcov",
+		"release": "standard-version"
 	},
 	"files": [
 		"cli.js",
@@ -33,16 +37,24 @@
 		"webp"
 	],
 	"dependencies": {
+		"@mole-inc/bin-wrapper": "^6.0.0",
+		"@sindresorhus/is": "^2.1.1",
 		"bin-build": "^3.0.0",
-		"bin-wrapper": "^4.0.1",
-		"logalot": "^2.1.0"
+		"bin-version-check": "^4.0.0",
+		"logalot": "^2.1.0",
+		"which": "^2.0.2"
 	},
 	"devDependencies": {
-		"ava": "^2.4.0",
+		"@commitlint/cli": "^8.3.5",
+		"@commitlint/config-conventional": "^8.3.4",
+		"ava": "^3.7.1",
 		"bin-check": "^4.1.0",
 		"compare-size": "^3.0.0",
-		"execa": "^1.0.0",
-		"tempy": "^0.2.1",
-		"xo": "^0.25.0"
+		"execa": "^4.0.0",
+		"husky": "^4.2.5",
+		"nyc": "^15.0.1",
+		"standard-version": "^7.1.0",
+		"tempy": "^0.5.0",
+		"xo": "^0.29.1"
 	}
 }

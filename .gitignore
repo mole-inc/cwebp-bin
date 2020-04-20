@@ -1,4 +1,7 @@
-node_modules
+node_modules/
+.nyc_output/
+coverage/
 yarn.lock
 test/tmp
 vendor/cwebp*
+!vendor/cwebp-license.txt

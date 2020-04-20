@@ -1,14 +1,16 @@
-# cwebp-bin [![Build Status](https://travis-ci.org/imagemin/cwebp-bin.svg?branch=master)](https://travis-ci.org/imagemin/cwebp-bin)
+# cwebp-bin ![Node CI](https://github.com/mole-inc/cwebp-bin/workflows/Node%20CI/badge.svg)
 
 > [WebP](https://developers.google.com/speed/webp/) is a new image format that provides lossless and lossy compression for images on the web. WebP lossless images are 26% smaller in size compared to PNGs. WebP lossy images are 25-34% smaller in size compared to JPEG images at equivalent SSIM index.
 
-You probably want [`imagemin-webp`](https://github.com/imagemin/imagemin-webp) instead.
+You probably want [`imagemin-webp`](https://github.com/mole-inc/imagemin-webp) instead.
 
+[![Downloads](https://badgen.net/npm/dm/@mole-inc/cwebp)](https://www.npmjs.com/package/@mole-inc/cwebp)
+[![Version](https://badgen.net/npm/v/@mole-inc/cwebp)](https://www.npmjs.com/package/@mole-inc/cwebp)
 
 ## Install
 
 ```
-$ npm install cwebp-bin
+$ npm install @mole-inc/cwebp-bin
 ```
 
 
@@ -16,7 +18,7 @@ $ npm install cwebp-bin
 
 ```js
 const {execFile} = require('child_process');
-const cwebp = require('cwebp-bin');
+const cwebp = require('@mole-inc/cwebp-bin');
 
 execFile(cwebp, ['input.png', '-o', 'output.webp'], err => {
 	if (err) {
@@ -31,7 +33,7 @@ execFile(cwebp, ['input.png', '-o', 'output.webp'], err => {
 ## CLI
 
 ```
-$ npm install --global cwebp-bin
+$ npm install --global @mole-inc/cwebp-bin
 ```
 
 ```
@@ -41,4 +43,6 @@ $ cwebp --help
 
 ## License
 
-MIT © [Imagemin](https://github.com/imagemin)
+This is a fork of [imagemin/cwebp-bin](https://github.com/imagemin/cwebp-bin) licensed under the MIT License.
+
+see LICENSE file and vendor/cwebp-license.txt file.
