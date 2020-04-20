@@ -19,6 +19,9 @@
 		"coverage": "nyc report --reporter=lcov",
 		"release": "standard-version"
 	},
+	"publishConfig": {
+		"access": "public"
+	},
 	"files": [
 		"cli.js",
 		"index.js",
