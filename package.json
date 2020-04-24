@@ -1,7 +1,7 @@
 {
 	"name": "@mole-inc/cwebp-bin",
 	"version": "6.0.0",
-	"description": "cwebp wrapper that makes it seamlessly available as a local dependency",
+	"description": "cwebp wrapper that makes it seamlessly available",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
