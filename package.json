@@ -1,6 +1,6 @@
 {
 	"name": "@mole-inc/cwebp-bin",
-	"version": "6.0.1",
+	"version": "6.0.2",
 	"description": "cwebp wrapper that makes it seamlessly",
 	"license": "MIT",
 	"repository": {
