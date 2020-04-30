@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.0.3](https://github.com/mole-inc/cwebp-bin/compare/v6.0.2...v6.0.3) (2020-04-30)
+
+
+### Bug Fixes
+
+* make vendor directory ([4096d2e](https://github.com/mole-inc/cwebp-bin/commit/4096d2e7898bf59d1cdc3777545b977e20dff7d1))
+
 ### [6.0.2](https://github.com/mole-inc/cwebp-bin/compare/v6.0.1...v6.0.2) (2020-04-24)
 
 
