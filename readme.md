@@ -4,8 +4,9 @@
 
 You probably want [`imagemin-webp`](https://github.com/mole-inc/imagemin-webp) instead.
 
-[![Downloads](https://badgen.net/npm/dm/@mole-inc/cwebp)](https://www.npmjs.com/package/@mole-inc/cwebp)
-[![Version](https://badgen.net/npm/v/@mole-inc/cwebp)](https://www.npmjs.com/package/@mole-inc/cwebp)
+[![Downloads](https://badgen.net/npm/dm/@mole-inc/cwebp-bin)](https://www.npmjs.com/package/@mole-inc/cwebp-bin)
+[![Version](https://badgen.net/npm/v/@mole-inc/cwebp-bin)](https://www.npmjs.com/package/@mole-inc/cwebp-bin)
+[![codecov](https://codecov.io/gh/mole-inc/cwebp-bin/branch/master/graph/badge.svg)](https://codecov.io/gh/mole-inc/cwebp-bin)
 
 ## Install
 
@@ -45,4 +46,4 @@ $ cwebp --help
 
 This is a fork of [imagemin/cwebp-bin](https://github.com/imagemin/cwebp-bin) licensed under the MIT License.
 
-see LICENSE file and vendor/cwebp-license.txt file.
+see license file and vendor/cwebp-license.txt file.
