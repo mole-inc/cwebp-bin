@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [7.0.0](https://github.com/mole-inc/cwebp-bin/compare/v6.0.3...v7.0.0) (2021-06-19)
+
+
+### ⚠ BREAKING CHANGES
+
+* require node.js 12
+
+### Features
+
+* require node.js 12 ([3376dc9](https://github.com/mole-inc/cwebp-bin/commit/3376dc98e4989f6aec6a79468b5297195c1da80b))
+
 ### [6.0.3](https://github.com/mole-inc/cwebp-bin/compare/v6.0.2...v6.0.3) (2020-04-30)
 
 
