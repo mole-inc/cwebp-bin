@@ -11,7 +11,7 @@
 		"cwebp": "cli.js"
 	},
 	"engines": {
-		"node": ">=10"
+		"node": ">=12"
 	},
 	"scripts": {
 		"postinstall": "node lib/install.js",
@@ -43,20 +43,20 @@
 		"@mole-inc/bin-wrapper": "^6.0.0",
 		"bin-build": "^3.0.0",
 		"bin-version-check": "^4.0.0",
-		"logalot": "^2.1.0",
+		"consola": "^2.15.3",
 		"which": "^2.0.2"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "^8.3.5",
-		"@commitlint/config-conventional": "^8.3.4",
-		"ava": "^3.7.1",
+		"@commitlint/cli": "latest",
+		"@commitlint/config-conventional": "latest",
+		"ava": "^3.15.0",
 		"bin-check": "^4.1.0",
 		"compare-size": "^3.0.0",
-		"execa": "^4.0.0",
+		"execa": "^5.0.0",
 		"husky": "^4.2.5",
 		"nyc": "^15.0.1",
-		"standard-version": "^7.1.0",
-		"tempy": "^0.5.0",
+		"standard-version": "latest",
+		"tempy": "^1.0.1",
 		"xo": "^0.29.1"
 	}
 }
